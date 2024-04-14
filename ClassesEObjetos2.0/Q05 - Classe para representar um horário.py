@@ -1,5 +1,4 @@
-#5 - 5. Crie uma classe para representar um horario (hora, minuto e segundo). 
-Implemente os metodos para fazer as operacoes de incremento (de segundos) no horario e diferenca entre dois horarios.
+#5 - Crie uma classe para representar um horario (hora, minuto e segundo). Implemente os metodos para fazer as operacoes de incremento (de segundos) no horario e diferenca entre dois horarios.
 
 class Horario:
   def __init__(self, hora, minuto, segundo):
