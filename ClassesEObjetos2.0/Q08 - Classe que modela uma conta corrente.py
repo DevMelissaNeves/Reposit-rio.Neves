@@ -1,6 +1,4 @@
-#8 - Crie uma classe que modele uma conta corrente (a) 
-Atributos: numero da conta, nome do correntista e saldo (b) 
-Metodos: alterar nome, deposito e saque; No construtor, saldo e opcional, com valor default zero e os demais atributos sao obrigatorios.
+#8 - Crie uma classe que modele uma conta corrente (a) Atributos: numero da conta, nome do correntista e saldo (b) Metodos: alterar nome, deposito e saque; No construtor, saldo e opcional, com valor default zero e os demais atributos sao obrigatorios.
 
 class ContaCorrente:
   def __init__(self, numero_conta, nome_correntista, saldo=0):
