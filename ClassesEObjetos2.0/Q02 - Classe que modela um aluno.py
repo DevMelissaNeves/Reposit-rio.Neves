@@ -14,7 +14,7 @@ class Aluno:
   def alterar_curso(self, novo_curso):
     self.curso = novo_curso
 
-aluno = Aluno("Fabi", 6223, "Odontologia")
+aluno = Aluno("Melissa", 1235, "Enfermagem")
 
 aluno.mostrar_curso()
 aluno.alterar_curso("Biomedicina")
