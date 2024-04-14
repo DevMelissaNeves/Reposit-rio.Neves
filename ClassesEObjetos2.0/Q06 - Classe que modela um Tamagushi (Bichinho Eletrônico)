@@ -1,0 +1,47 @@
+#6 - Crie uma classe que modele um Tamagushi (Bichinho Eletrônico):
+Atributos: Nome, Fome, Saúde e Idade b. Métodos: Alterar Nome, Fome, Saúde e Idade; Retornar Nome, Fome, Saúde e Idade Obs: 
+Existe mais uma informação que devemos levar em consideração, o Humor do nosso tamagushi, este humor é uma combinação entre os atributos Fome e Saúde, ou seja, um campo calculado, então não devemos criar um atributo para armazenar esta informação por que ela pode ser calculada a qualquer momento.
+
+
+class Vetor3D:
+  def __init__(self, x, y, z):
+    self.x = x
+    self.y = y
+    self.z = z
+
+  def __add__(self, other):
+    return Vetor3D(self.x + other.x, self.y + other.y, self.z + other.z)
+
+  def __sub__(self, other):
+    return Vetor3D(self.x - other.x, self.y - other.y, self.z - other.z)
+
+  def produto_vetorial(self, other):
+    return Vetor3D(
+      self.y * other.z - self.z * other.y,
+      self.z * other.x - self.x * other.z,
+      self.x * other.y - self.y * other.x
+    )
+
+  def produto_escalar(self, other):
+    return self.x * other.x + self.y * other.y + self.z * other.z
+
+  def modulo(self):
+    return (self.x ** 2 + self.y ** 2 + self.z ** 2) ** 0.5
+
+  def __str__(self):
+    return f"({self.x}, {self.y}, {self.z})"
+
+vetor1 = Vetor3D(1, 2, 3)
+vetor2 = Vetor3D(4, 5, 6)
+
+soma = vetor1 + vetor2
+subtracao = vetor1 - vetor2
+produto_vetorial = vetor1.produto_vetorial(vetor2)
+produto_escalar = vetor1.produto_escalar(vetor2)
+modulo_vetor1 = vetor1.modulo()
+
+print(f"Soma: {soma}")
+print(f"Subtração: {subtracao}")
+print(f"Produto vetorial: {produto_vetorial}")
+print(f"Produto escalar: {produto_escalar}")
+print(f"Módulo do vetor 1: {modulo_vetor1}")
