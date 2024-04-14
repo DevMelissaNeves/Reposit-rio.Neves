@@ -1,4 +1,4 @@
-#4 -4. Crie uma classe para representar um numero complexo. Implemente, usando sobrecarga de operador, os metodos para fazer as operacoes de soma, subtracao e produto entre dois numeros
+#4 - Crie uma classe para representar um numero complexo. Implemente, usando sobrecarga de operador, os metodos para fazer as operacoes de soma, subtracao e produto entre dois numeros
 
 class NumeroComplexo:
   def __init__(self, real, imag):
