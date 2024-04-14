@@ -1,7 +1,4 @@
-#7 - Crie uma classe que modele um carro (a) 
-Atributos: marca, ano e preco (b) 
-Metodos: mostrar preco e de exibicao dos dados 
-Leia os dados de 5 carros e um valor p, Mostre as informacoes de todos os carros com preco menor que p.
+#7 - Crie uma classe que modele um carro (a) Atributos: marca, ano e preco (b) Metodos: mostrar preco e de exibicao dos dados Leia os dados de 5 carros e um valor p, Mostre as informacoes de todos os carros com preco menor que p.
 
 class Carro:
   def __init__(self, marca, ano, preco):
