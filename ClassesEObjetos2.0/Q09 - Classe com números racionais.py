@@ -1,5 +1,4 @@
-#9 - Um racional e qualquer numero da forma p/q, sendo p inteiro e q inteiro nao nulo. 
-Crie uma classe para representar um racional e os seguinte metodos: 1 (a) inverter sinal; (b) somar dois racionais; (c) subtrair dois racionais; (d) produto de dois racionais; (e) quociente de dois racionais;
+#9 - Um racional e qualquer numero da forma p/q, sendo p inteiro e q inteiro nao nulo. Crie uma classe para representar um racional e os seguinte metodos: 1 (a) inverter sinal; (b) somar dois racionais; (c) subtrair dois racionais; (d) produto de dois racionais; (e) quociente de dois racionais;
 
 class Racional:
   def __init__(self, numerador, denominador):
