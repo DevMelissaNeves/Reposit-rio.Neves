@@ -4,7 +4,6 @@ vetor_A = []
 vetor_B = []
 vetor_C = []
 
-
 print("Digite os elementos do vetor A:")
 for i in range(10):
     elemento_A = int(input(f"Elemento {i + 1}: "))
